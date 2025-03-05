@@ -1,4 +1,4 @@
-module github.com/Cobracahinsaw/go_grpc
+module github.com/Cobrachainsaw/go_grpc
 
 go 1.23.4
 
