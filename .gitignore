@@ -1,3 +1,4 @@
 go.sum
+.gitignore
 client/client.exe
 server/server.exe
