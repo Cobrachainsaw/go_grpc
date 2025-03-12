@@ -7,7 +7,7 @@ import (
 	pb "github.com/Cobrachainsaw/go_grpc/proto"
 )
 
-func (s *helloServer) SayHelloClientStreaming(stream pb.GreetService_SayHelloClientStreamServer) error {
+func (s *helloServer) SayHelloClientStream(stream pb.GreetService_SayHelloClientStreamServer) error {
 	var messages []string
 	for {
 		req, err := stream.Recv()
