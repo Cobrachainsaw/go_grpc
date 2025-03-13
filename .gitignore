@@ -1,4 +1,4 @@
 go.sum
 .gitignore
-client/client.exe
-server/server.exe
+*.exe
+*.exe~
